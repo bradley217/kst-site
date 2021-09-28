@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Kara Shay Thomson - Contacts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script type="text/javascript" src="js/jquery-3.2.1.min.js?version=2.0"></script>
+<script type="text/javascript" src="js/loadHeaderImages.js?version=2.0"></script>
+<script type="text/javascript" src="js/utils.js?version=2.0"></script>
+<script type="text/javascript" src="js/contacts.js?version=2.0"></script>
+<link href="styles/styleLight.css?version=3.0" rel="stylesheet" type="text/css" />
+<link href="styles/layoutLight.css?version=3.0" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Actor" rel="stylesheet" />
+<!--[if gte IE 9]>
+<link href="styles/layoutIE9.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/unitpngfix-modified.js"></script>
+<![endif]-->
+</head>
+<body id="contacts" onunload="ContactsObject.onUnLoad();" onload="ContactsObject.onLoad();">
+	<div id="outerContainer" class="main">
+		  <!-- header -->
+		  <div id="header">
+			<div class="banner">Kara Shay Thomson</div>
+			<div id="row-1" class="row-1">
+				<div class="indent">
+					<ul class="site-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="schedule.html">Schedule</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="media.html">Media</a></li>
+						<li><a href="press.html">Press</a></li>
+						<li><a href="contacts.html" class="act">Contacts</a></li>
+						<li class="last">
+							<span>
+								<a target="_blank" title="Follow me on Twitter" href="http://www.twitter.com/TheKaraShay">
+									<img alt="follow me on Twitter" src="images/Twitter-icon-small.png" border="0" style="height:17px;">
+								</a>
+								<a target="_blank" title="Follow me on Facebook" href="https://www.facebook.com/KaraShayThomson/?fref=ts">
+									<img alt="follow me on facebook" src="images/FB-f-Logo__blue_29.png" border="0" style="height:17px;">
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="row-2" class="row-2">
+				<div id="DivMainPhotoCredit" class="mainPhotoCredit">&nbsp;</div>
+			</div>
+		  </div>
+		  <!-- content -->
+		  <div id="content">
+			<div class="wrapper divider">
+				<div class="col-1">
+					<div class="box1">
+						<h3><em><b>Primary contact</b></em></h3>
+						<div class="xcontent">
+							<div class="contactBox">
+								<div class="contactAddr">
+									<span class="managerName">Kara Shay Thomson</span><br/>
+								</div>
+								<a href="mailto:karashaythomsonkst@gmail.com" class="phone">karashaythomsonkst@gmail.com</a>email:<br /><br />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2">
+					<h3><em><b>Contact form</b></em></h3>
+					<div class="indent1">
+						<form method="post" action="cgi-bin/contacts.php" id="contactForm">
+							<div>
+								<div class="col-1">
+									<div class="form">Enter Your Name:<br />
+										<input type="text" name="name"/>
+									</div>
+									<div class="form">Enter Your E-mail:<br />
+										<input type="text" name="email"/>
+									</div>
+								</div>
+								<div class="col-2">
+									<div>Enter Your Message:<br />
+										<textarea cols="1" rows="1" name="message"></textarea>
+									</div>
+									<div>
+										<a id="submitButton" class="push_button red" href="#">Submit</a>
+										<a id="clearButton" class="push_button red" href="#">Clear</a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
